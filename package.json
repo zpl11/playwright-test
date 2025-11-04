@@ -1,0 +1,14 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "1. 我要创建一个 playwright 的 E2E 的测试环境。\r 2. 我使用本地的 chrom 浏览器就行，不需要在 npm playwright 的时候下载其他的 chrom 内核。\r 3. 写一个登录测试，来保留我登录时候的信息，然后以后测试系统的时候就直接使用这个登录信息。",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  }
+}
